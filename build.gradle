@@ -1,0 +1,22 @@
+group '1'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.zxzx74147.jbd.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'mysql:mysql-connector-java:5.1.6'
+    compile 'org.jsoup:jsoup:1.8.2'
+    compile 'commons-dbcp:commons-dbcp:1.4'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.5.4'
+    compile 'org.apache.lucene:lucene-core:5.2.1'
+    compile 'com.mchange:c3p0:0.9.5.1'
+}
