@@ -11,5 +11,5 @@ public class DBConfig {
 
 
     public static final String TABLE_DBD_ITEM = "item_dbd";
-
+    public static final String A="http://203.100.94.12/soyoung_android/soyoung_main.git";
 }
